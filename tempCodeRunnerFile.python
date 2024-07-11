@@ -1,0 +1,13 @@
+a = int(input("enter a value between 5 and 9"))
+
+if(a<5 or a>9):
+    raise ValueError("not propper value ")
+
+a = input("\n enter a any ")
+print(a.lower())
+if a.lower() == 'quit':
+    print("bye")
+else:
+    raise SyntaxError("not correctpassword")
+    
+    
