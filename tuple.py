@@ -11,3 +11,6 @@ if 45 in tup:
 
 tup2 = tup[1:4]
 print(tup2)
+
+tup3 = tup[::2]
+print(tup3)
