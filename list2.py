@@ -15,7 +15,9 @@ l.insert(2,787)
 print(l)
 
 d = [200,534,898]
-# l.extend(d)
-# print(l)
+l.extend(d)
+print(l)
 k = l + d
 print(k)
+m = d+ l
+print(m)
